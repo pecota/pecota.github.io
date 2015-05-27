@@ -1,0 +1,11 @@
+language: python
+branches:
+  only:
+  - src
+install:
+- pip install -r requirements.txt
+script:
+- make github
+env:
+  global:
+    secure: QqzxBefgP1Qw5F5zmUcdZmV8NjE3KEXgO02L7oKj4Y09MCukfR/p2cSWnppilQb8d3hRfCxQo5o5vNeOfw88YuPV2/Jy1PAu4+Z0zdummEdx+rQDoGJIZfrOE+KUujy4Pthkw3f5UWO6ol3IrxD2FKdhOzr/HOVghDNAVTf5OFuR1Pa9dWyPBYbzGLuYCNph/YTRH6fL4S47ycOHMVxWG30Miq75vFh814v3oViTuBlzb4x/C8TwMIhNwhIIlLRc39nK9cnzPTbeopvL/dnLf+vwYBKYxffzx8vCOBhFy28JK7BmdzOkHp40pDviyU16NCuVth6qNbfTrELA7j91A/OMVL/SfhSjsHrK9RyYOadhh/RIz/nmrep7AiFH9WcG5ZdacUk4golLb6ANYL4f3Qu6zmwfbNEy7Bc/sBRrHa/ID+qppDZrp9SaxpKYLXX+OK0BTRAPJO+h0X7VFZxchKJSygsdiqJRjs6lwMtW1V6aLLdlpVqPV2+pz2kN/019Z+syeNThxPy2Gqo8bnd7YbWyfkBRmU4fmLIZWVNlg2fAdqnLpFwG5zE+9WYU0WyUEJ/+0fEwGq/JbC/XVB7GNGmQ/QYPY3tGVqDL6/LVAQB6/VHfeZnM3Ihzy+UCqnoneMC6DYZKgfn3xY4aR7RLIbYAdLBRxPRtVR43uokDhW4=
